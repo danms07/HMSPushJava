@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HMSPushJava</string>
+    <string name="subs">Subscriptions</string>
+    <string name="sports">Sports</string>
+    <string name="weather">Weather</string>
+    <string name="tech">Technology</string>
+    <string name="payload">Payload</string>
+    <string name="load_dialog_message">Please Wait</string>
+    <string name="load_dialog_title">Connecting</string>
+</resources>
