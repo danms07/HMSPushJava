@@ -41,6 +41,14 @@ public class MainActivity extends AppCompatActivity implements CompoundButton.On
         sports.setOnCheckedChangeListener(this);
         weather.setOnCheckedChangeListener(this);
         tech.setOnCheckedChangeListener(this);
+
+
+        Bundle b=getIntent().getExtras();
+        if(b!=null){
+            for(String key:b.keySet()){
+                Log.e("push",key+" "+b.getString(key,"NULL"));
+            }
+        }
     }
 
     public void showLoadingDialog(){
